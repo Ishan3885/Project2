@@ -1,0 +1,20 @@
+[
+    {
+        "answer": "Version: Code 1.96.2 (fabdb6a30b49f79a7aba0f2ad9df9b399473380f, 2024-12-19T10:22:47.216Z)\nOS Version: Darwin arm64 24.2.0\nCPUs: Apple M2 Pro (12 x 2400)\nMemory (System): 16.00GB (0.26GB free)\nLoad (avg): 2, 2, 3\nVM: 0%\nScreen Reader: no\nProcess Argv: --crash-reporter-id 478d798c-7073-4dcf-90b0-967f5c7ad87b\nGPU Status: 2d_canvas: enabled\ncanvas_oop_rasterization: enabled_on\ndirect_rendering_display_compositor: disabled_off_ok\ngpu_compositing: enabled\nmultiple_raster_threads: enabled_on\nopengl: enabled_on\nrasterization: enabled\nraw_draw: disabled_off_ok\nskia_graphite: disabled_off\nvideo_decode: enabled\nvideo_encode: enabled\nwebgl: enabled\nwebgl2: enabled\nwebgpu: enabled\nwebnn: disabled_off\n\nCPU %\tMem MB\t PID\tProcess\n0\t180\t23282\tcode main\n0\t49\t23285\tgpu-process\n2\t33\t23286\tutility-network-service\n28\t279\t23287\twindow [1] (binaryResearch.py — vscodeScripts)\n15\t131\t23308\tshared-process\n29\t16\t24376\t/Applications/Visual Studio Code.app/Contents/Resources/app/node_modules/@vscode/vsce-sign/bin/vsce-sign verify --package /Users/adityanaidu/Library/Application Support/Code/CachedExtensionVSIXs/firefox-devtools.vscode-firefox-debug-2.13.0 --signaturearchive /Users/adityanaidu/Library/Application Support/Code/CachedExtensionVSIXs/firefox-devtools.vscode-firefox-debug-2.13.0.sigzip\n0\t49\t23309\tfileWatcher [1]\n4\t459\t23664\textensionHost [1]\n1\t82\t23938\telectron-nodejs (server.js )\n0\t229\t23945\telectron-nodejs (bundle.js )\n0\t49\t23959\telectron-nodejs (serverMain.js )\n0\t66\t23665\tptyHost\n0\t0\t23940\t/bin/zsh -i\n7\t0\t24315\t/bin/zsh -i\n0\t0\t24533\t(zsh)\n\nWorkspace Stats: \n| Window (binaryResearch.py — vscodeScripts)\n| Folder (vscodeScripts): 307 files\n| File types: py(82) js(21) txt(20) html(17) DS_Store(15) pyc(15) xml(11)\n| css(11) json(9) yml(5)\n| Conf files: settings.json(2) launch.json(1) tasks.json(1)\n| package.json(1)\n| Launch Configs: cppdbg"
+    },
+    {
+        "result": "546f34cb1fbb09896491b147b86c1635ca79f4f5a91ce58882925d8fc43b3354 *-"
+    },
+    {
+        "answer": "140"
+    },
+    {
+        "answer": "131"
+    },
+    {
+        "answer": "1121"
+    },
+    {
+        "answer": "[{\"name\":\"Charlie\",\"age\":16},{\"name\":\"Liam\",\"age\":23},{\"name\":\"Bob\",\"age\":28},{\"name\":\"Grace\",\"age\":36},{\"name\":\"Ivy\",\"age\":44},{\"name\":\"Jack\",\"age\":53},{\"name\":\"David\",\"age\":56},{\"name\":\"Oscar\",\"age\":57},{\"name\":\"Karen\",\"age\":65},{\"name\":\"Frank\",\"age\":67},{\"name\":\"Nora\",\"age\":68},{\"name\":\"Emma\",\"age\":70},{\"name\":\"Paul\",\"age\":88},{\"name\":\"Alice\",\"age\":92},{\"name\":\"Henry\",\"age\":94},{\"name\":\"Mary\",\"age\":97}]"
+    }
+]
