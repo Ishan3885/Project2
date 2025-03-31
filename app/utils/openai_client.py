@@ -1435,7 +1435,8 @@ async def get_openai_response(question: str, file_path: Optional[str] = None) ->
                         target_key=function_args.get("target_key"),
                     )
                 elif function_name == "generate_duckdb_query":
-                    from app.utils.functions import generate_duckdb_query
+                    from app.utils.functions import generate_duckdb_query  # Ensure the function is imported
+
                     answer = await generate_duckdb_query(
                         query_type=function_args.get("query_type"),
                         timestamp_filter=function_args.get("timestamp_filter"),
@@ -1443,7 +1444,8 @@ async def get_openai_response(question: str, file_path: Optional[str] = None) ->
                         sort_order=function_args.get("sort_order"),
                     )
                 elif function_name == "transcribe_youtube_segment":
-                    from app.utils.functions import transcribe_youtube_segment
+                    from app.utils.functions import transcribe_youtube_segment  # Ensure the function is imported
+
                     answer = await transcribe_youtube_segment(
                         youtube_url=function_args.get("youtube_url"),
                         start_time=function_args.get("start_time"),
